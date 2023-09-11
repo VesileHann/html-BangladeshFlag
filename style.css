@@ -1,0 +1,26 @@
+div
+{
+    background-color: #006a4e;
+    height:600px;
+    width:900px;
+    position:relative;
+}
+/* since second div is first gen of the circle div i use child method*/
+div >div {
+    background-color:#f42a41;
+    width:360px;
+    height:360px;
+    border-radius:50%;
+    position:absolute;
+    margin-top: 13%;
+    margin-left: 25%;
+}
+div div>h1
+{
+    position:relative;
+    text-align: center;
+    text-transform: uppercase;
+    top:500px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
